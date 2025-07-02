@@ -1,3 +1,65 @@
+body {
+    background-color: #fdffba;
+}
+
 h1 {
     text-align: center;
+    font-size: 128px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Home Page */
+.home {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.home li {
+    margin: 0 auto;
+}
+
+.home a,
+.back {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home a {
+    padding: 32px 64px;
+    font-size: 64px;
+}
+
+/* Recipe Pages */
+h3 {
+    font-size: 26px;
+}
+
+p,
+li {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+.recipe {
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman';
+}
+
+.back {
+    margin-left: 75px;
+    padding: 8px 32px;
+    font-size: 24px;
 }
