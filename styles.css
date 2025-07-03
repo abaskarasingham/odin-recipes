@@ -21,7 +21,7 @@ img {
 }
 
 .home li {
-    margin: 0 auto;
+    margin: 0 50px;
 }
 
 .home a,
@@ -34,8 +34,8 @@ img {
 }
 
 .home a {
-    padding: 32px 64px;
-    font-size: 64px;
+    padding: 16px 32px;
+    font-size: 32px;
 }
 
 /* Recipe Pages */
